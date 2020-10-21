@@ -38,3 +38,14 @@ Your project goal is to operationalize this working, machine learning microservi
 * Setup and Configure Kubernetes locally
 * Create Flask app in Container
 * Run via kubectl
+
+### Files
+
+* `run_docker.sh` : script for running web app in docker locally
+* `upload_docker.sh` : script for uploading docker image to docker hub
+* `run_kubernetes.sh` : script for running web app in kubernetes pod
+* `requirements.txt` : flask web app dependencies
+* `Makefile` : file for install,lint,test operations
+* `Dockerfile` : configuration for docker image
+* `output_txt_files/docker_out` : Project logs in docker
+* `output_txt_files/kubernetes_out` : Project logs in kubernetes
